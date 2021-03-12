@@ -43,7 +43,7 @@ for(let name of names){
 }
 
 // for in
-// irá criar um loop em cima de um objeto
+// nos permite criar um loop em cima de um objeto
 let person = {
     name: 'Marcos',
     age: 25,
@@ -54,3 +54,5 @@ for(let property in person){
     console.log(property);
     console.log(person[property]);
 }
+
+/* além dessas estruturas acima, existe o do while também, porém sua utilização é um pouco diferente que o while normal. */
